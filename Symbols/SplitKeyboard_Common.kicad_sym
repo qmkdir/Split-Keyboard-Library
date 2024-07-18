@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:MSK12C02"
+		(property "Footprint" "SplitKeyboard_Common:MSK12C02"
 			(at 0 0 0)
 			(effects
 				(font
@@ -191,7 +191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:SSD1306-0.91-OLED-4pin-128x32 doublesided"
+		(property "Footprint" "SplitKeyboard_Common:ProMicro_Jumpers_V2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -417,7 +417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Controllers:ProMicro_jumpers_V2"
+		(property "Footprint" "SplitKeyboard_Common:ProMicro_Jumpers_V2"
 			(at 2.54 -26.67 0)
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "SplitKeyboard_Common:MX_SK6812MINI-E_REVERSIBLE"
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:YTS-A002"
+		(property "Footprint" "SplitKeyboard_Common:YTS-A002"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1780,7 +1780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:Molex-216990_GCT-USB45xx_HRO-TYPE-C-31-M-13x-PiMicro_1_DOUBLESIDED"
+		(property "Footprint" "SplitKeyboard_Common:Diode_DO35_SOD123_Hybrid"
 			(at 3.81 0 0)
 			(effects
 				(font
