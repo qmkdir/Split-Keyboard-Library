@@ -1,0 +1,231 @@
+(footprint "RESISTOR_Reversible"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resitance 3 pas")
+	(tags "R")
+	(property "Reference" "C1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "d5dc201b-f80b-4914-a7cb-fac9b29fd39a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.153)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "100nF"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12cdaaa7-22d7-4bc4-8820-e69f0aae18f0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Footprint" "Keyboard Common:RESISTOR_Reversible"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "42bdf6ef-9e05-4a27-893f-18a79f49ca9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "540d6b7b-25ed-4763-816d-75f7fe03d95f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1e2741d0-96e0-498a-8cbc-3159eab84367")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole dnp)
+	(fp_line
+		(start -1.5 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "cfb6f1ca-5eb9-4a01-920d-8997c5b97519")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end -1.5 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "281a805d-f668-4f6f-9099-5651996b88c3")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "90d81d2d-8b47-4fa1-abb2-f1f819f52673")
+	)
+	(fp_line
+		(start 1.5 1)
+		(end -1.5 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6e6a009d-cd6c-4d47-be54-272fe41c3ccb")
+	)
+	(fp_line
+		(start -1.50114 -1.00076)
+		(end -1.50114 1.00076)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0b9b616-9fdf-4079-af2d-904f38e5329a")
+	)
+	(fp_line
+		(start -1.50114 1.00076)
+		(end 1.50114 1.00076)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9db9b98-1050-4aa8-967c-6f583def81ad")
+	)
+	(fp_line
+		(start 1.50114 -1.00076)
+		(end -1.50114 -1.00076)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36e2ae72-41f1-471f-8873-1114765df457")
+	)
+	(fp_line
+		(start 1.50114 1.00076)
+		(end 1.50114 -1.00076)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "060f6133-05d7-471e-9b63-78266c3614a1")
+	)
+	(fp_poly
+		(pts
+			(xy 3.27 1.07) (xy -3.28 1.07) (xy -3.28 -1.06) (xy 3.27 -1.06)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "747a9c58-5ed5-4e58-b3d7-2dcd2f645385")
+	)
+	(fp_text user "CAP"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2672353d-ab55-4a47-83fb-b19ffd0a611e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.153)
+			)
+		)
+	)
+	(fp_text user "CAP"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "2a8b17ee-dd2e-4da4-b4cf-2bdc9c44b4d4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.153)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d03d0154-9b08-4447-87fb-04b15afd233b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87e15422-0f6b-4432-bce1-f412fdeab7d6")
+	)
+	(model "discret/resistor.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3 0.3 0.3)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.2 0.2 0.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
